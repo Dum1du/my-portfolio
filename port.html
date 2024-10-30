@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="port.css">
+    <script src="https://kit.fontawesome.com/ab7acccdae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navi_stabel">
+                <img src="pics/logo.png" class="logo">
+                <ul id="sidebar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>FullStack Developer</p>
+                <h1>Hi, I'm<span> Dumidu</span> Prabashana<br> from Sri Lanka</h1>
+            </div>
+        </div>
+
+    </div>
+    <!----------- about ----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column-01">
+                    <img src="pics/1671520467574.jpg">
+                </div>
+                <div class="column-02">
+                    <h1 class="sub-title">About me</h1>
+                    <p>"As a full-stack developer, I thrive on building intuitive and impactful 
+                        applications across the entire tech stack. I bring a relentless dedication 
+                        to crafting high-quality solutions that not only meet user needs but also 
+                        exceed company expectations. More than just code, I understand the business,
+                         collaborate seamlessly, and actively seek ways to add value beyond the 
+                         immediate project. Let's explore how I can bring your vision to life!"
+                 </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design Web/App interface</li>
+                        <li><span>web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Build android/IOS applications</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022  - current</span><br>Bachelors of (hons) Software Engineering [UG] in The Open University of Sri Lanka</li>
+                        <li><span>High School</span><br>St. Thomas' College Matale</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        Welcome to my Web Development Services! With a strong foundation in HTML, CSS, and JavaScript, 
+I specialize in crafting dynamic and responsive websites that seamlessly blend creativity with functionality. 
+I stay ahead of the curve by continuously learning and adapting to the latest industry trends, ensuring that my 
+clients receive modern and innovative web development services. 
+Let's collaborate on your next project – whether it's refining an existing site or building something entirely new.                        
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Designing</h2>
+                    <p>
+                        
+
+Explore a world of captivating user experiences with my UI/UX design services.
+ I specialize in crafting visually stunning and intuitively functional designs that leave a lasting impression.
+ With a keen eye for detail and a passion for creativity, I bring a unique approach to every project, ensuring that each design reflects the brand's identity.
+ Proficient in industry-standard tools, I harness the power of Figma to bring concepts to life.
+I am dedicated to delivering innovative and user-friendly solutions that elevate your digital presence.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Application Development</h2>
+                    <p>
+                        
+
+Embark on a seamless mobile experience with my application development services tailored for both Android and iOS platforms. Leveraging the power of React Native, I specialize in creating high-performance, cross-platform applications that marry efficiency with a polished user interface. Whether you have a specific vision in mind or need assistance in refining your concept, my goal is to bring your ideas to life.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="line-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>
+                        <div class="icons">
+                            <div>
+                                <i class="fa-solid fa-envelope"></i>
+                                dumidu.prabashana01@gmail.com
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                                071 - 2287707
+                            </div>
+                        </div>
+                        <div class="navigate">
+                            <a href="https://www.facebook.com/dumidu.mahara/"><i class="fa-brands fa-square-facebook"></i></a>
+                        
+                        
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        
+                        
+                            <a href=""> <i class="fa-brands fa-square-twitter"></i></a>
+                        </div>
+                        
+                        
+                       
+                    </p>
+                </div>
+                <div class="line-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Keep a message "></textarea>
+                        <button class="btn" type="submit">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <p>...All rights reserved to Dumidu Prabashana...</p>
+        </div>
+    </div>
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+        var sideBar = document.getElementById('sidebar');
+
+        function openMenu() {
+            sideBar.style.right = '0';
+        }
+        function closeMenu() {
+            sideBar.style.right = '-150px';
+        }
+
+        function opentab(clearTab){
+            for (tabLink of tabLinks){
+                tabLink.classList.remove('active-link'); 
+            }
+            for (tabContent of tabContents){
+                tabContent.classList.remove('active-tab'); 
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(clearTab).classList.add('active-tab');
+        }
+    </script>
+    
+</body>
+</html>
