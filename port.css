@@ -263,7 +263,6 @@ nav ul li a:hover::after {
   width: 70px;
 }
 .seeMoreBtn {
-  display: flex;
   text-decoration: none;
   color: #242427;
   background: #fff;
