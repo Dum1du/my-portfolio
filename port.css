@@ -69,6 +69,7 @@ html {
 nav {
   display: flex;
   align-items: center;
+  position: relative;
   /* justify-content: space-between; */
   flex-wrap: wrap;
   width: 100%;
@@ -216,6 +217,8 @@ nav ul li a:hover::after {
 /* ------------AppLogo-------- */
 #projects {
   margin: 40px 0;
+  justify-content: center;
+  align-items: center;
 }
 .project-list {
   display: grid;
@@ -261,7 +264,6 @@ nav ul li a:hover::after {
 }
 .seeMoreBtn {
   display: flex;
-  position: relative;
   text-decoration: none;
   color: #242427;
   background: #fff;
@@ -279,6 +281,7 @@ nav ul li a:hover::after {
 }
 .seeMoreBtn:hover {
   background: #aaa8a8;
+  text-decoration: none;
 }
 
 /* ----------contact------------- */
@@ -370,12 +373,15 @@ nav .fa-solid {
     margin-top: 10px;
     font-size: 30px;
   }
+  nav {
+    position: relative;
+  }
 
   nav .fa-solid {
     position: absolute;
     display: block;
     font-size: 25px;
-    left: 80%;
+    right: 0;
   }
 
   .logo {
@@ -386,8 +392,8 @@ nav .fa-solid {
     position: fixed;
     background-color: #04ae8f;
     top: 0;
-    right: -150px;
-    width: 150px;
+    right: -50%;
+    width: 50%;
     height: 100vh;
     padding-top: 50px;
     z-index: 2;
