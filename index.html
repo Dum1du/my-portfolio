@@ -11,12 +11,13 @@
     <div id="header">
         <div class="container">
             <nav class="navi_stabel">
-                <img src="pics/logo.png" class="logo">
+                <!-- <img src="pics/logo.png" class="logo"> -->
+                <div class="heading"> <span class="collapse-animation" data-text="Dum1du"></span> </div>
                 <ul id="sidebar">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closeMenu()" ></i>
                 </ul>
@@ -101,7 +102,12 @@ I am dedicated to delivering innovative and user-friendly solutions that elevate
                     <p>
                         
 
-Embark on a seamless mobile experience with my application development services tailored for both Android and iOS platforms. Leveraging the power of React Native, I specialize in creating high-performance, cross-platform applications that marry efficiency with a polished user interface. Whether you have a specific vision in mind or need assistance in refining your concept, my goal is to bring your ideas to life.
+Embark on a seamless mobile experience with my application development 
+services tailored for both Android and iOS platforms. Leveraging the power of 
+React Native and Java, I specialize in creating high-performance, cross-platform 
+applications that marry efficiency with a polished user interface. Whether you have 
+a specific vision in mind or need assistance in refining your concept, my goal is to
+ bring your ideas to life.
 
                     </p>
                 </div>
@@ -110,7 +116,23 @@ Embark on a seamless mobile experience with my application development services 
     </div>
 
     <div id="projects">
-        
+        <div class="container">
+            <h1 class="sub-title">Things I have done</h1>
+            <div class="project-list">
+                <div>
+                    <img src="pics/AppLogo.png" alt="App Logo" class="appLogo"/>
+                    <h2>Fy-FoundYou Parent Controlling App</h2>
+                    <p>
+                        FoundYou is a cutting-edge Android application designed with 
+                        the primary goal of enhancing children's safety. By providing real-time location tracking, 
+                        this app offers parents peace of mind, knowing they can always be aware of their child's whereabouts...
+                    </p>
+
+                    <button class="seeMoreBtn" onclick="https://github.com/Dum1du/Fy-FoundYou.the.parent.control?tab=readme-ov-file">See more</button>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- -------------contact------------- -->
     <div id="contact">
@@ -148,7 +170,7 @@ Embark on a seamless mobile experience with my application development services 
                         <input type="text" name="name" placeholder="Your name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <textarea name="message" rows="5" placeholder="Keep a message "></textarea>
-                        <button class="btn" type="submit">Submit</button>
+                        <button class="btn" type="submit" >Submit</button>
                     </form>
                     
                 </div>
