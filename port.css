@@ -262,14 +262,23 @@ nav ul li a:hover::after {
 .seeMoreBtn {
   display: flex;
   position: relative;
+  text-decoration: none;
+  color: #242427;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
   margin: 10px;
   padding: 5px;
   opacity: 0%;
+  font-weight: bold;
   transition: opacity 1s;
 }
 .project-list div:hover .seeMoreBtn {
   opacity: 100%;
   cursor: pointer;
+}
+.seeMoreBtn:hover {
+  background: #aaa8a8;
 }
 
 /* ----------contact------------- */
